@@ -3,18 +3,22 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
-  'socket.io-client': 'vendor/socket.io-client',
   'moment': 'vendor/moment/moment.js',
-  'ng2-bootstrap': 'vendor/ng2-bootstrap'
+  'ng2-bootstrap': 'vendor/ng2-bootstrap',
+  'firebase': 'vendor/firebase/lib/firebase-web.js',
+  'angularfire2': 'vendor/angularfire2'
 
 };
 
 /** User packages configuration. */
 const packages: any = {
-  'socket.io-client' : {main: 'socket.io.js'},
   'vendor/ng2-bootstrap': {
       main: 'ng2-bootstrap.js'
-  }
+  },
+  'angularfire2': {
+      defaultExtension: 'js',
+      main: 'angularfire2.js'
+    }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////

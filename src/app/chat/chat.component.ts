@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {AngularFire} from 'angularfire2';
+import {Observable} from 'rxjs/Observable';
 
 @Component({
   moduleId: module.id,
@@ -8,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChatComponent implements OnInit {
 
-  constructor() {}
+  constructor(af: AngularFire) {
+
+  }
 
   ngOnInit() {
   }
