@@ -8,13 +8,11 @@ import {Observable} from 'rxjs/Observable';
   templateUrl: 'chat.component.html',
   styleUrls: ['chat.component.css']
 })
-export class ChatComponent implements OnInit {
-
+export class ChatComponent {
+  items: Observable<any[]>;
   constructor(af: AngularFire) {
-
-  }
-
-  ngOnInit() {
+    // create a list at /items
+    this.items = af.list('/items');
   }
 
 }

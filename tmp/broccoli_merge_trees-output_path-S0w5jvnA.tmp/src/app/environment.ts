@@ -1,1 +1,0 @@
-/Users/th3brink/Sandbox/angular2-angularfire-starter/config/environment.dev.ts

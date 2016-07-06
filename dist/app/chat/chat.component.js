@@ -12,9 +12,9 @@ var core_1 = require('@angular/core');
 var angularfire2_1 = require('angularfire2');
 var ChatComponent = (function () {
     function ChatComponent(af) {
+        // create a list at /items
+        this.items = af.list('/items');
     }
-    ChatComponent.prototype.ngOnInit = function () {
-    };
     ChatComponent = __decorate([
         core_1.Component({
             moduleId: module.id,

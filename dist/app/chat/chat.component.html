@@ -1,7 +1,11 @@
 
 <div class="chat-container">
   <div class="chat-content">
-
+    <ul *ngFor="let item of items | async">
+      <li class="text">
+        {{item.name}}
+      </li>
+    </ul>
   </div>
   <div class="chat-input-container">
     <input class="chat-input" type="text" placeholder="Start Chatting" >
