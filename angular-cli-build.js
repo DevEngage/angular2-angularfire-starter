@@ -15,7 +15,7 @@ module.exports = function(defaults) {
       'ng2-bootstrap/**/*',
       'moment/moment.js',
       'angularfire2/**/*.js',
-      'firebase/lib/*.js'
+      'firebase/firebase.js'
     ]
   });
 };

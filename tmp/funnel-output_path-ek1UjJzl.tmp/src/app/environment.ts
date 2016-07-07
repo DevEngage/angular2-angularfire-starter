@@ -1,0 +1,1 @@
+/Users/th3brink/Sandbox/angular2-angularfire-starter/tmp/funnel-input_base_path-uYZp2iRd.tmp/0/environment.dev.ts

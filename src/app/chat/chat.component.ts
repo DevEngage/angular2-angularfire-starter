@@ -10,9 +10,15 @@ import {Observable} from 'rxjs/Observable';
 })
 export class ChatComponent {
   items: Observable<any[]>;
+  message: string;
   constructor(af: AngularFire) {
     // create a list at /items
-    this.items = af.list('/items');
+    this.items = af.database.list('/table-elements');
+  }
+
+  addMessage(message: string) {
+    // this.items.push(message);
+    this.message = '';
   }
 
 }

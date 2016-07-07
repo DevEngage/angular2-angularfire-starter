@@ -5,7 +5,7 @@
 const map: any = {
   'moment': 'vendor/moment/moment.js',
   'ng2-bootstrap': 'vendor/ng2-bootstrap',
-  'firebase': 'vendor/firebase/lib/firebase-web.js',
+  'firebase': 'vendor/firebase/firebase.js',
   'angularfire2': 'vendor/angularfire2'
 
 };
